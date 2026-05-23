@@ -219,9 +219,11 @@ form button:hover {
 nav {
     position: fixed;
     top: 0;
+    left: 0;
+
     width: 100%;
 
-    padding: 20px 5%;
+    padding: 20px 40px;
 
     display: flex;
     justify-content: space-between;
@@ -233,20 +235,29 @@ nav {
 
     z-index: 1000;
 }
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 
+    margin-right: 60px;
+}
 nav h2 {
     font-size: 1.3rem;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-
-    margin-left: 15px;
-
     color: #cccccc;
 
-    font-size: 0.95rem;
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #7c7cff;
 }
 
 .nav-links a:hover {
