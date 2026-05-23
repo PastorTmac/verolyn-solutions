@@ -220,12 +220,17 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 10%;
+
+    padding: 20px 5%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     background: rgba(10, 10, 10, 0.75);
+
     backdrop-filter: blur(10px);
+
     z-index: 1000;
 }
 
@@ -236,8 +241,12 @@ nav h2 {
 .nav-links a {
     color: white;
     text-decoration: none;
-    margin-left: 25px;
+
+    margin-left: 15px;
+
     color: #cccccc;
+
+    font-size: 0.95rem;
 }
 
 .nav-links a:hover {
