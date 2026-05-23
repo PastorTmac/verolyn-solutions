@@ -318,8 +318,10 @@ section {
 }
 
 .logo-area img {
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
+
     object-fit: cover;
-    border-radius: 8px;
+
+    border-radius: 10px;
 }
