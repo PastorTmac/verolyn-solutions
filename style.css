@@ -326,10 +326,13 @@ section {
     border-radius: 10px;
 }
 .hero-logo {
-    width: 500px;
-    max-width: 90%;
+    width: 725px;
+    max-width: 95%;
 
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
-    filter: drop-shadow(0 0 20px rgba(91, 91, 255, 0.35));
+    opacity: 0.95;
+
+    filter:
+        drop-shadow(0 0 18px rgba(91, 91, 255, 0.28));
 }
