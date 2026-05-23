@@ -344,20 +344,20 @@ section {
     width: 340px;
     background: #111;
     border: 1px solid #333;
-    border-radius: 15px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 0 25px rgba(91, 91, 255, 0.3);
+    box-shadow: 0 0 25px rgba(91, 91, 255, 0.35);
     z-index: 2000;
 }
 
 .chat-header {
     background: #5b5bff;
-    padding: 15px;
+    padding: 14px;
     font-weight: bold;
 }
 
 .chat-messages {
-    height: 280px;
+    height: 260px;
     padding: 15px;
     overflow-y: auto;
     font-size: 0.95rem;
@@ -370,12 +370,12 @@ section {
 
 .chat-input-area input {
     flex: 1;
-    border-radius: 0;
     margin: 0;
+    border-radius: 0;
 }
 
 .chat-input-area button {
-    padding: 0 18px;
+    padding: 0 16px;
     background: #5b5bff;
     color: white;
     border: none;
