@@ -337,3 +337,46 @@ section {
     filter:
         drop-shadow(0 0 22px rgba(91, 91, 255, 0.32));
 }
+.chat-widget {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 340px;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(91, 91, 255, 0.3);
+    z-index: 2000;
+}
+
+.chat-header {
+    background: #5b5bff;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.chat-messages {
+    height: 280px;
+    padding: 15px;
+    overflow-y: auto;
+    font-size: 0.95rem;
+}
+
+.chat-input-area {
+    display: flex;
+    border-top: 1px solid #333;
+}
+
+.chat-input-area input {
+    flex: 1;
+    border-radius: 0;
+    margin: 0;
+}
+
+.chat-input-area button {
+    padding: 0 18px;
+    background: #5b5bff;
+    color: white;
+    border: none;
+}
