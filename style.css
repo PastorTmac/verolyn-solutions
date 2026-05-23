@@ -18,7 +18,7 @@ body {
 /* HERO SECTION */
 
 header {
-    height: 100vh;
+    height: 90vh;
 
     display: flex;
     flex-direction: column;
@@ -326,13 +326,14 @@ section {
     border-radius: 10px;
 }
 .hero-logo {
-    width: 725px;
+    width: 850px;
     max-width: 95%;
 
-    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-bottom: 20px;
 
-    opacity: 0.95;
+    opacity: 0.96;
 
     filter:
-        drop-shadow(0 0 18px rgba(91, 91, 255, 0.28));
+        drop-shadow(0 0 22px rgba(91, 91, 255, 0.32));
 }
