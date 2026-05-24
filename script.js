@@ -1,4 +1,13 @@
+function expandChat() {
+    document.getElementById("chat-widget").classList.remove("collapsed");
+}
+
+function toggleChat() {
+    document.getElementById("chat-widget").classList.toggle("collapsed");
+}
+
 function sendMessage() {
+    expandChat();
     const input = document.getElementById("chat-input");
     const messages = document.getElementById("chat-messages");
 

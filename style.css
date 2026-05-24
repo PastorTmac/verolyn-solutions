@@ -380,3 +380,15 @@ section {
     color: white;
     border: none;
 }
+.chat-widget.collapsed {
+    height: 58px;
+}
+
+.chat-widget.collapsed .chat-header,
+.chat-widget.collapsed .chat-messages {
+    display: none;
+}
+
+.chat-widget.collapsed .chat-input-area {
+    height: 58px;
+}

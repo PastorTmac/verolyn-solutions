@@ -94,14 +94,15 @@
         <button type="submit">Submit</button>
     </form>
 </section>
-<div class="chat-widget">
-    <div class="chat-header">Veloryn Assistant</div>
+<div class="chat-widget collapsed" id="chat-widget">
+    <div class="chat-header" onclick="toggleChat()">Veloryn Assistant</div>
+
     <div id="chat-messages" class="chat-messages">
-        <p><strong>Veloryn:</strong> Hi, I’m the Veloryn Assistant. Ask about AI assistants, lead generation, automation, or pricing.</p>
+        <p><strong>Veloryn:</strong> Hi, I’m the Veloryn Assistant. Ask about websites, AI assistants, lead generation, automation, or pricing.</p>
     </div>
 
     <div class="chat-input-area">
-        <input id="chat-input" type="text" placeholder="Ask a question...">
+        <input id="chat-input" type="text" placeholder="Ask a question..." onclick="expandChat()">
         <button onclick="sendMessage()">Send</button>
     </div>
 </div>
