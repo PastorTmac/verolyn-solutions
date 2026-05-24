@@ -53,5 +53,14 @@ function getBotReply(message) {
         return "You can use the contact form on this page to reach out. Include what you need, your timeline, and the best way to contact you.";
     }
 
+    if (
+    msg.includes("interested") ||
+    msg.includes("quote") ||
+    msg.includes("hire") ||
+    msg.includes("start") ||
+    msg.includes("consultation")
+) {
+    return "Absolutely. Fill out the contact form below with your name, email, and what you need. Veloryn Solutions will follow up with you shortly.";
+}
     return "I can help with websites, AI assistants, automation, lead generation, and marketing support. What kind of project are you thinking about?";
 }
